@@ -6,6 +6,7 @@ export default function NavBar() {
       <Link to='/'>Home</Link>
       <Link to='/counter'>Counter</Link>
       <Link to='/image-gallery'>Image Gallery</Link>
+      <Link to='/timer'>Timer</Link>
     </div>
   )
 }

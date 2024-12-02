@@ -8,6 +8,7 @@ import NotFoundPage from './components/pages/NotFoundPage'
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ImageGallery from './components/image-gallery/ImageGallery';
+import TimerMain from './components/timer/Outer.js';
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         {
           path: '/image-gallery',
           element: <ImageGallery/>
+        },
+        {
+          path: '/timer',
+          element: <TimerMain/>
         }
       ]
     }
