@@ -1,9 +1,10 @@
 import { useState } from 'react';
+
 function HomePage() {
 
   const [message, setMessage] = useState("Hello Word!")
   const toggleMessage = () => {
-    const newMessage = (message == "Hello World") ? "Welcome to home page" : "Hello World"
+    const newMessage = (message === "Hello World") ? "Welcome to home page" : "Hello World"
     setMessage(newMessage)
   }
 
