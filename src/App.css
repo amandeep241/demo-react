@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.chessboard {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  .square {
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+  }
+  .black {
+    background-color: black;
+  }
+}
+  

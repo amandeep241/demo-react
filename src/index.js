@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ImageGallery from './components/image-gallery/ImageGallery';
 import TimerMain from './components/timer/Outer.js';
+import Chess from './components/chess/chess.js';
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         {
           path: '/timer',
           element: <TimerMain/>
+        },
+        {
+          path: '/chess',
+          element: <Chess/>
         }
       ]
     }
